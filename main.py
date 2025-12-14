@@ -82,7 +82,7 @@ def schedule_polls(application, polls):
             logger.error(f"Ошибка планирования опроса: {e}")
 
 def main():
-    TOKEN = "7937929115:AAEGEjnOB7y_pVfDiYOcaqfIMMinYztE0io"
+    TOKEN = "token"
     application = Application.builder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start_command))
 
